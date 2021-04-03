@@ -21,10 +21,16 @@ let myStudies =["Math","Physics","Programming","Sociology"]
 myStudies.pop();
 console.log(myStudies);
 
+
+//Favorite Food Variables
 let food1 = "Tacos"
 let food2 = "Burritos"
 let food3 = "Hamburgers"
 let food4 = "Pizza"
 let food5 = "Sushi"
 
-let myFavoriteFood[] = [food1,food2,food3,food4,food5];
+//array of favorite foods
+let myFavoriteFood = [food1,food2,food3,food4,food5];
+
+console.log(myFavoriteFood[2]);
+
