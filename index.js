@@ -32,5 +32,14 @@ let food5 = "Sushi"
 //array of favorite foods
 let myFavoriteFood = [food1,food2,food3,food4,food5];
 
+//get 3rd food 
 console.log(myFavoriteFood[2]);
+console.log("I love "+ myFavoriteFood[0]);
 
+food3 = "Hot Dogs"; // play with vars
+console.log(myFavoriteFood[2]); // Array value is still same
+console.log(food3);
+myFavoriteFood[2] = food3;  
+console.log(myFavoriteFood[2]);
+console.log(food3);
+console.log(myFavoriteFood);
